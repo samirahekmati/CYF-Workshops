@@ -9,8 +9,9 @@ function calculateAverage(arr) {
     for (let i = 0; i < arr.length; i++) {
       sum += arr[i];
     }
+  
     return sum / arr.length;
   }
   
-  let arr = [1, 2, 3, 4, 5];
+  let arr = [0,-5,9,7,5,3,6,2,9];
   console.log(calculateAverage(arr));
